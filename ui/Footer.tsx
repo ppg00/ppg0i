@@ -12,7 +12,7 @@ export default function Footer() {
         © ppg00 {new Date().getFullYear()}. Website built using Next.js
         & TailwindCSS (
         <a
-          href="https://github.com/cristicretu/ppg0i.vercel.app"
+          href="https://github.com/ppg00/ppg0i.vercel.app"
           rel="noopener noreferrer"
           target="_blank"
         >

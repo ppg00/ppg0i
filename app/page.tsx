@@ -125,7 +125,7 @@ function Contact() {
         />
         <ContactLink
           href="https://github.com/ppg00"
-          title="cristicretu"
+          title="ppg00"
           website="GitHub"
         />
         <ContactLink

@@ -59,8 +59,8 @@ export async function generateMetadata({
   };
 }
 
-const editUrl = (slug: string) =>
-  `https://github.com/cristicretu/ppg0i.vercel.app/edit/main/data/writing/${slug}.mdx`;
+//const editUrl = (slug: string) =>
+//  `https://github.com/cristicretu/ppg0i.vercel.app/edit/main/data/writing/${slug}.mdx`;
 
 export default async function WritingPost({ params }: { params: any }) {
   const post = allWritings.find((post) => post.slug === params.slug);
