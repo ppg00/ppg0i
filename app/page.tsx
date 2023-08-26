@@ -28,7 +28,7 @@ function Header() {
       </div>
       <div className="flex flex-col">
         <h1>ppg00</h1>
-        <p className="text-quaternary">Design Engineer in Europe</p>
+        <p className="text-quaternary">piece of shit live in morocoo</p>
       </div>
     </div>
   );
