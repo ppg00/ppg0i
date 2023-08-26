@@ -130,7 +130,7 @@ function Contact() {
         />
         <ContactLink
           href="https://www.instgram.com/ppg00"
-          title="cretu"
+          title="ppg00"
           website="instagram"
         />
         <ContactLink
