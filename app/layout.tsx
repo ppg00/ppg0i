@@ -11,9 +11,9 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   archives: ['https://old.crtu.dev'],
-  authors: [{ name: 'Cristian Crețu', url: 'https://ppg0i.vercel.app' }],
+  authors: [{ name: 'ppg00', url: 'https://ppg0i.vercel.app' }],
   category: 'design',
-  creator: 'Cristian Crețu',
+  creator: 'ppg00',
   description: 'Design Engineer.',
   icons: {
     apple: '/static/favicons/apple-touch-icon-180x180.png',
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     'Frontend',
     'Developer',
     'Software',
-    'Cristian Crețu',
-    'Cristicrtu',
+    'ppg00',
+    'ppg00',
     'ppg0i.vercel.app',
     'romania',
   ],
@@ -41,19 +41,19 @@ export const metadata: Metadata = {
     description: 'Design Engineer.',
     images: [
       {
-        alt: 'Cristian Crețu',
+        alt: 'ppg00',
         height: 1080,
         url: 'https://ppg0i.vercel.app/static/images/og.png',
         width: 1920,
       },
     ],
     locale: 'en-US',
-    siteName: 'Cristian Crețu',
-    title: 'Cristian Crețu',
+    siteName: 'ppg00',
+    title: 'ppg00',
     type: 'website',
     url: 'https://ppg0i.vercel.app',
   },
-  publisher: 'Cristian Crețu',
+  publisher: 'ppg00',
   robots: {
     follow: true,
     googleBot: {
@@ -70,13 +70,13 @@ export const metadata: Metadata = {
     { color: '#171717', media: '(prefers-color-scheme: dark)' },
   ],
   title: {
-    default: 'Cristian Crețu',
-    template: '%s | Cristian Crețu',
+    default: 'ppg00',
+    template: '%s | ppg00',
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@cristicrtu',
-    title: 'Cristian Crețu',
+    site: '@ppg00',
+    title: 'ppg00',
   },
   verification: {
     google: 'fK4YqLAHjoaynXLF1e5gaPzDNOircgiYSgAwSXqr61o',

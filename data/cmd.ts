@@ -39,7 +39,7 @@ export const actions: Action[] = [
   {
     name: "Twitter",
     keywords: "twitter",
-    href: "https://twitter.com/cristicrtu",
+    href: "https://twitter.com/qqg00",
     section: "Socials",
     color: "#63C7FA",
     iconColor: "#102E62",
@@ -96,7 +96,7 @@ export const Socials: Action[] = [
     name: "Twitter",
     keywords: "twitter",
     perform: () => {
-      window.open("https://twitter.com/cristicrtu");
+      window.open("https://twitter.com/qqg00");
     },
     section: "Socials",
   },

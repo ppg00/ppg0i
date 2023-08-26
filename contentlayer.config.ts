@@ -45,7 +45,7 @@ const computedFields: ComputedFields = {
       '@type': 'BlogPosting',
       author: {
         '@type': 'Person',
-        name: 'Cristian Crețu',
+        name: 'ppg00',
       },
       dateModified: doc.publishedAt,
       datePublished: doc.publishedAt,

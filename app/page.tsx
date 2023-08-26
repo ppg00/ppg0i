@@ -27,7 +27,7 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-col">
-        <h1>Cristian Crețu</h1>
+        <h1>ppg00</h1>
         <p className="text-quaternary">Design Engineer in Europe</p>
       </div>
     </div>
@@ -119,31 +119,25 @@ function Contact() {
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/cristicrtu"
-          title="cristicrtu"
+          href="https://twitter.com/qqg00"
+          title="ppg00"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/cristicretu"
+          href="https://github.com/ppg00"
           title="cristicretu"
           website="GitHub"
         />
         <ContactLink
-          href="https://www.figma.com/@cretu"
+          href="https://www.instgram.com/ppg00"
           title="cretu"
-          website="Figma"
+          website="instagram"
         />
         <ContactLink
-          href="https://layers.to/cretu"
-          title="cretu"
-          website="Layers.to"
-        />
-        <ContactLink
-          email="hi[at]cretu(dot)dev"
-          title="hi[at]cretu(dot)dev"
+          email="ppg0i@n8.gs"
+          title="ppg0i@n8.gs"
           website="Email"
         />
-        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );

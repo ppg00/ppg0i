@@ -2,7 +2,7 @@ import { resources } from '@/data/resources';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  description: 'A place where I share ideas about design and code.',
+  description: 'A place where I share ideas about games and code.',
   title: 'Writing',
 };
 
