@@ -1,12 +1,12 @@
 export default function robots() {
   return {
-    host: 'https://cretu.dev',
+    host: 'https://ppg0i.vercel.app',
     rules: [
       {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://cretu.dev/sitemap.xml',
+    sitemap: 'https://ppg0i.vercel.app/sitemap.xml',
   };
 }
 

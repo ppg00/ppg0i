@@ -12,7 +12,7 @@ export default function Footer() {
         © Cristian Crețu {new Date().getFullYear()}. Website built using Next.js
         & TailwindCSS (
         <a
-          href="https://github.com/cristicretu/cretu.dev"
+          href="https://github.com/cristicretu/ppg0i.vercel.app"
           rel="noopener noreferrer"
           target="_blank"
         >

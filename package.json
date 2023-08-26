@@ -1,5 +1,5 @@
 {
-  "name": "cretu.dev",
+  "name": "ppg0i.vercel.app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -62,11 +62,11 @@
   "author": {
     "email": "crisemcr@gmail.com",
     "name": "Cristian Crețu",
-    "url": "https://cretu.dev"
+    "url": "https://ppg0i.vercel.app"
   },
-  "homepage": "https://cretu.dev",
+  "homepage": "https://ppg0i.vercel.app",
   "bugs": {
-    "url": "https://github.com/cristicretu/cretu.dev/issues"
+    "url": "https://github.com/cristicretu/ppg0i.vercel.app/issues"
   },
   "browserslist": [
     ">0.2%",

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   archives: ['https://old.crtu.dev'],
-  authors: [{ name: 'Cristian Crețu', url: 'https://cretu.dev' }],
+  authors: [{ name: 'Cristian Crețu', url: 'https://ppg0i.vercel.app' }],
   category: 'design',
   creator: 'Cristian Crețu',
   description: 'Design Engineer.',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     'Software',
     'Cristian Crețu',
     'Cristicrtu',
-    'cretu.dev',
+    'ppg0i.vercel.app',
     'romania',
   ],
   manifest: '/static/favicons/site.webmanifest',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       {
         alt: 'Cristian Crețu',
         height: 1080,
-        url: 'https://cretu.dev/static/images/og.png',
+        url: 'https://ppg0i.vercel.app/static/images/og.png',
         width: 1920,
       },
     ],
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: 'Cristian Crețu',
     title: 'Cristian Crețu',
     type: 'website',
-    url: 'https://cretu.dev',
+    url: 'https://ppg0i.vercel.app',
   },
   publisher: 'Cristian Crețu',
   robots: {

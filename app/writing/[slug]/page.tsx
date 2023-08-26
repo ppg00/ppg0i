@@ -32,8 +32,8 @@ export async function generateMetadata({
     slug,
   } = post;
   const ogImage = image
-    ? `https://cretu.dev${image}`
-    : `https://cretu.dev/api/og?title=${title}`;
+    ? `https://ppg0i.vercel.app${image}`
+    : `https://ppg0i.vercel.app/api/og?title=${title}`;
 
   return {
     description,
@@ -47,7 +47,7 @@ export async function generateMetadata({
       publishedTime,
       title,
       type: 'article',
-      url: `https://cretu.dev/blog/${slug}`,
+      url: `https://ppg0i.vercel.app/blog/${slug}`,
     },
     title,
     twitter: {
@@ -60,7 +60,7 @@ export async function generateMetadata({
 }
 
 const editUrl = (slug: string) =>
-  `https://github.com/cristicretu/cretu.dev/edit/main/data/writing/${slug}.mdx`;
+  `https://github.com/cristicretu/ppg0i.vercel.app/edit/main/data/writing/${slug}.mdx`;
 
 export default async function WritingPost({ params }: { params: any }) {
   const post = allWritings.find((post) => post.slug === params.slug);

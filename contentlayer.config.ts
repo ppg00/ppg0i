@@ -52,9 +52,9 @@ const computedFields: ComputedFields = {
       description: doc.summary,
       headline: doc.title,
       image: doc.image
-        ? `https://cretu.dev${doc.image}`
-        : `https://cretu.dev/static/images/og.png`,
-      url: `https://cretu.dev/writing/${doc._raw.flattenedPath}`,
+        ? `https://ppg0i.vercel.app${doc.image}`
+        : `https://ppg0i.vercel.app/static/images/og.png`,
+      url: `https://ppg0i.vercel.app/writing/${doc._raw.flattenedPath}`,
     }),
     type: 'json',
   },
