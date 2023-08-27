@@ -59,8 +59,6 @@ export async function generateMetadata({
   };
 }
 
-const editUrl = (slug: string) =>
-  `https://github.com/ppg00/ppg0i/edit/main/data/writing/${slug}.mdx`;
 
 export default async function WritingPost({ params }: { params: any }) {
   const post = allWritings.find((post) => post.slug === params.slug);
@@ -92,9 +90,6 @@ export default async function WritingPost({ params }: { params: any }) {
         />
       </div>
       <Mdx code={post.body.code} />
-      <ExternalLink className="text-sm" href={editUrl(post.slug)}>
-        Edit source on GitHub
-      </ExternalLink>
     </div>
   );
 }

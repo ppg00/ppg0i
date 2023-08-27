@@ -39,7 +39,7 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
+          My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites or i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
         </p>
       </div>
     </div>
@@ -112,6 +112,11 @@ function Contact() {
           href="https://instagram.com/ppg00"
           title="ppg00"
           website="Instagram"
+        />
+        <ContactLink
+          href="https://t.me/ppg0i"
+          title="ppg0i"
+          website="Telegram"
         />
         <ContactLink
           email="ppg00"

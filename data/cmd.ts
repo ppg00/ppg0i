@@ -29,22 +29,6 @@ export const actions: Action[] = [
     iconColor: "#673D13",
   },
   {
-    name: "GitHub",
-    keywords: "github",
-    href: "https://github.com/ppg00",
-    section: "Socials",
-    color: "#61C167",
-    iconColor: "#0D2805",
-  },
-  {
-    name: "Twitter",
-    keywords: "twitter",
-    href: "https://twitter.com/qqg00",
-    section: "Socials",
-    color: "#63C7FA",
-    iconColor: "#102E62",
-  },
-  {
     name: "Light",
     keywords: "light",
     section: "Themes",
@@ -57,48 +41,6 @@ export const actions: Action[] = [
     section: "Themes",
     color: "#EC79F9",
     iconColor: "#5C0E63",
-  },
-  {
-    name: "System",
-    keywords: "system",
-    section: "Themes",
-    color: "#FF7F50",
-    iconColor: "#9f3e1b",
-  },
-];
-
-
-export const Navigation: Action[] = [
-  {
-    name: "Home",
-    keywords: "home",
-    href: "/",
-    section: "Navigation",
-  },
-  {
-    name: "Writing",
-    keywords: "writing",
-    href: "/writing",
-    section: "Navigation",
-  },
-];
-
-export const Socials: Action[] = [
-  {
-    name: "GitHub",
-    keywords: "github",
-    perform: () => {
-      window.open("https://github.com/ppg00");
-    },
-    section: "Socials",
-  },
-  {
-    name: "Twitter",
-    keywords: "twitter",
-    perform: () => {
-      window.open("https://twitter.com/qqg00");
-    },
-    section: "Socials",
   },
 ];
 
@@ -111,11 +53,6 @@ export const Themes: Action[] = [
   {
     name: "Dark",
     keywords: "dark",
-    section: "Themes",
-  },
-  {
-    name: "System",
-    keywords: "system",
     section: "Themes",
   },
 ];

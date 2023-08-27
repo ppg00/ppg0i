@@ -9,16 +9,7 @@ export default function Footer() {
     <footer className="text-quaternary border-gray-200pb-24 mx-auto max-w-2xl border-t border-dashed py-12 pt-4 text-sm dark:border-gray-700 dark:text-gray-600">
       <FooterGraphic />
       <span>
-        © ppg00 {new Date().getFullYear()}. Website built using Next.js
-        & TailwindCSS (
-        <a
-          href="https://github.com/ppg00/ppg0i.vercel.app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          view source
-        </a>
-        ).
+        ©ppg00 2023-{new Date().getFullYear()}.
       </span>
     </footer>
   );

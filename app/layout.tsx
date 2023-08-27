@@ -10,11 +10,10 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  archives: ['https://old.crtu.dev'],
   authors: [{ name: 'ppg00', url: 'https://ppg0i.vercel.app' }],
   category: 'design',
   creator: 'ppg00',
-  description: 'Design Engineer.',
+  description: 'hello Im mohammed!.',
   icons: {
     apple: '/static/favicons/apple-touch-icon-180x180.png',
     icon: '/static/favicons/favicon-196x196.png',
@@ -31,14 +30,14 @@ export const metadata: Metadata = {
     'Frontend',
     'Developer',
     'Software',
-    'ppg00',
+    'piece of shit',
     'ppg00',
     'ppg0i.vercel.app',
-    'romania',
+    'morocco',
   ],
   manifest: '/static/favicons/site.webmanifest',
   openGraph: {
-    description: 'Design Engineer.',
+    description: 'piece of shit.',
     images: [
       {
         alt: 'ppg00',
@@ -79,7 +78,7 @@ export const metadata: Metadata = {
     title: 'ppg00',
   },
   verification: {
-    google: 'fK4YqLAHjoaynXLF1e5gaPzDNOircgiYSgAwSXqr61o',
+    google: '',
   },
 };
 
