@@ -3,7 +3,7 @@ export type Action = {
   shortcut?: string[];
   keywords?: string;
   href?: string;
-  section: "Navigation" | "Socials" | "Themes";
+  section: "Themes";
   icon?: JSX.Element;
   subtitle?: string;
   perform?: () => void;
