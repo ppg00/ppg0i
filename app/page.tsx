@@ -27,8 +27,8 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-col">
-        <h1>Cristian Crețu</h1>
-        <p className="text-quaternary">Design Engineer in Europe</p>
+        <h1>mohammed (ppg00)</h1>
+        <p className="text-quaternary">piece of shit live in Morocc</p>
       </div>
     </div>
   );
@@ -40,26 +40,17 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          Exploring ways to create unique, fluid experiences. Unlimitedly
-          obsessed with solving problems where design and engineering intersect,
-          by creating pixel-perfect, polished interfaces.
+          My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
         </p>
         <p>
-          Currently tinkering with various projects and apps. Streamlining a new
-          platform, for the next era of{' '}
-          <ExternalLink href="https://deta.space/docs/en/learn/what-is-pc#content">
-            personal computing
+          {' '}
+          <ExternalLink href="#">
+            #######
           </ExternalLink>{' '}
-          at <ExternalLink href="https://deta.space">Deta</ExternalLink>.
-          Previously worked at{' '}
-          <ExternalLink href="https://landmarks.ro">Landmarks</ExternalLink> -
-          building beautiful web apps.
-        </p>
-        <p>
-          Studying Computer Science. Ardent in reading, writing, and improving
-          consistently through learning. Currently interested in TypeScript and
-          C. Experimenting native apps with Swift. Generating new experiences
-          with Figma.
+          at <ExternalLink href="#">#</ExternalLink>.
+          ##{' '}
+          <ExternalLink href="#">#</ExternalLink> -
+          #
         </p>
       </div>
     </div>
@@ -119,31 +110,20 @@ function Contact() {
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/cristicrtu"
-          title="cristicrtu"
+          href="https://twitter.com/qqg00"
+          title="qqg00"
           website="Twitter"
         />
         <ContactLink
-          href="https://github.com/cristicretu"
-          title="cristicretu"
+          href="https://github.com/ppg00"
+          title="ppg00"
           website="GitHub"
         />
         <ContactLink
-          href="https://www.figma.com/@cretu"
-          title="cretu"
-          website="Figma"
-        />
-        <ContactLink
-          href="https://layers.to/cretu"
-          title="cretu"
-          website="Layers.to"
-        />
-        <ContactLink
-          email="hi[at]cretu(dot)dev"
-          title="hi[at]cretu(dot)dev"
+          email="ppg00"
+          title="ppg00"
           website="Email"
         />
-        <ContactLink href="https://read.cv/cretu" title="cretu" website="CV" />
       </div>
     </div>
   );
