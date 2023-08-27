@@ -3,7 +3,7 @@ export type Action = {
   shortcut?: string[];
   keywords?: string;
   href?: string;
-  section: "Themes | Navigation";
+  section: "Navigation" | "Socials" | "Themes";
   icon?: JSX.Element;
   subtitle?: string;
   perform?: () => void;
@@ -29,6 +29,22 @@ export const actions: Action[] = [
     iconColor: "#673D13",
   },
   {
+    name: "GitHub",
+    keywords: "github",
+    href: "https://github.com/cristicretu",
+    section: "Socials",
+    color: "#61C167",
+    iconColor: "#0D2805",
+  },
+  {
+    name: "Twitter",
+    keywords: "twitter",
+    href: "https://twitter.com/cristicrtu",
+    section: "Socials",
+    color: "#63C7FA",
+    iconColor: "#102E62",
+  },
+  {
     name: "Light",
     keywords: "light",
     section: "Themes",
@@ -41,6 +57,48 @@ export const actions: Action[] = [
     section: "Themes",
     color: "#EC79F9",
     iconColor: "#5C0E63",
+  },
+  {
+    name: "System",
+    keywords: "system",
+    section: "Themes",
+    color: "#FF7F50",
+    iconColor: "#9f3e1b",
+  },
+];
+
+
+export const Navigation: Action[] = [
+  {
+    name: "Home",
+    keywords: "home",
+    href: "/",
+    section: "Navigation",
+  },
+  {
+    name: "Writing",
+    keywords: "writing",
+    href: "/writing",
+    section: "Navigation",
+  },
+];
+
+export const Socials: Action[] = [
+  {
+    name: "GitHub",
+    keywords: "github",
+    perform: () => {
+      window.open("https://github.com/cristicretu");
+    },
+    section: "Socials",
+  },
+  {
+    name: "Twitter",
+    keywords: "twitter",
+    perform: () => {
+      window.open("https://twitter.com/cristicrtu");
+    },
+    section: "Socials",
   },
 ];
 
@@ -53,6 +111,11 @@ export const Themes: Action[] = [
   {
     name: "Dark",
     keywords: "dark",
+    section: "Themes",
+  },
+  {
+    name: "System",
+    keywords: "system",
     section: "Themes",
   },
 ];
