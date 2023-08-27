@@ -1,7 +1,7 @@
 'use client';
 
 import { GitHubLogo, TwitterLogo } from './Icons';
-import { Themes, Navigation, Socials } from '@/data/cmd';
+import { Themes } from '@/data/cmd';
 import { cn } from '@/lib/className';
 import {
   HomeIcon,
