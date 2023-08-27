@@ -33,7 +33,7 @@ export async function generateMetadata({
   } = post;
   const ogImage = image
     ? `https://ppg0i.vercel.app${image}`
-    : `https://mohammed-og.vercel.app/api?theme=neutral&title=${title}&description=${summary}`;
+    : `https://mohammed-og.vercel.app/api?theme=neutral&title=${title}&description=${description}`;
 
   return {
     description,
