@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     title: 'ppg00',
   },
   verification: {
-    google: '',
+    google: '<meta name="n7ezg3HNBS8tKqKEvXLFoYT8OWEms8e3K-QSUM7Vt5A',
   },
 };
 

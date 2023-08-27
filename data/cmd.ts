@@ -29,14 +29,6 @@ export const actions: Action[] = [
     iconColor: "#673D13",
   },
   {
-    name: "GitHub",
-    keywords: "github",
-    href: "https://github.com/cristicretu",
-    section: "Socials",
-    color: "#61C167",
-    iconColor: "#0D2805",
-  },
-  {
     name: "Twitter",
     keywords: "twitter",
     href: "https://twitter.com/cristicrtu",
