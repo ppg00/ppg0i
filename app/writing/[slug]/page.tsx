@@ -70,6 +70,7 @@ export default async function WritingPost({ params }: { params: any }) {
       <script type="application/ld+json">
         {JSON.stringify(post.structuredData)}
       </script>
+      <script async src="https://ackeepg.vercel.app/tracker.js" data-ackee-server="https://ackeepg.vercel.app" data-ackee-domain-id="fc4c520e-eced-499b-80cb-205551372539"></script>
       <Link className="text-secondary text-sm no-underline" href="/writing">
         ← Back to all posts
       </Link>

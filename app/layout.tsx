@@ -126,7 +126,6 @@ export default function RootLayout({
             </>
           </AnimateEnter>
         </Providers>
-        <script async src="https://ackeepg.vercel.app/tracker.js" data-ackee-server="https://ackeepg.vercel.app" data-ackee-domain-id="fc4c520e-eced-499b-80cb-205551372539"></script>
       </body>
     </html>
   );
