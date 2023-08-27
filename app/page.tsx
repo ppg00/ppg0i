@@ -40,26 +40,7 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          Exploring ways to create unique, fluid experiences. Unlimitedly
-          obsessed with solving problems where design and engineering intersect,
-          by creating pixel-perfect, polished interfaces.
-        </p>
-        <p>
-          Currently tinkering with various projects and apps. Streamlining a new
-          platform, for the next era of{' '}
-          <ExternalLink href="https://deta.space/docs/en/learn/what-is-pc#content">
-            personal computing
-          </ExternalLink>{' '}
-          at <ExternalLink href="https://deta.space">Deta</ExternalLink>.
-          Previously worked at{' '}
-          <ExternalLink href="https://landmarks.ro">Landmarks</ExternalLink> -
-          building beautiful web apps.
-        </p>
-        <p>
-          Studying Computer Science. Ardent in reading, writing, and improving
-          consistently through learning. Currently interested in TypeScript and
-          C. Experimenting native apps with Swift. Generating new experiences
-          with Figma.
+My name is **mohammed**. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
         </p>
       </div>
     </div>
@@ -134,7 +115,7 @@ function Contact() {
           website="instagram"
         />
         <ContactLink
-          email="ppg0i@n8.gs"
+          email="mail:ppg0i@n8.gs"
           title="ppg0i@n8.gs"
           website="Email"
         />
