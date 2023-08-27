@@ -2,14 +2,103 @@
 title: 'markdown'
 publishedAt: '2023-07-05'
 summary: 'md.'
-image: '/static/images/free-ideas/idea.png'
+image: 'https://mohammed-og.vercel.app/api?theme=zinc&title=Dynamic+OG+Images+with+%40vercel%2Fog&description=Taking+a+look+at+Vercel%27s+new+library+to+generate+dynamic+OpenGraph+images+on+the+fly%21&logo=mohammed'
 ---
-> > :Button label=GitHub, url=https://github.coml
-[button url="http://www.google.com"]
+```html showLineNumbers title="Basic button"
+<button>Click me</button>
+```
 
-<button name="button" onclick="http://www.google.com">Click me</button>
-[Click me](http://www.google.com)
+# Markdown Examples
 
-[<kbd> <br> Title <br> </kbd>][Link]
+## h2 Heading
 
-[Link]: # 'Link with example title.'
+### h3 Heading
+
+#### h4 Heading
+
+##### h5 Heading
+
+###### h6 Heading
+
+## Emphasis
+
+**This is bold text**
+
+_This is italic text_
+
+~~Strikethrough~~
+
+## Blockquotes
+
+> Develop. Preview. Ship. – Vercel
+
+## Lists
+
+Unordered
+
+- Lorem ipsum dolor sit amet
+- Consectetur adipiscing elit
+- Integer molestie lorem at massa
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+## Code
+
+Inline `code`
+
+```javascript
+export default function Nextra({ Component, pageProps }) {
+  return (
+    <>
+      <Head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="RSS"
+          href="/feed.xml"
+        />
+        <link
+          rel="preload"
+          href="/mohammed/fonts/Inter-roman.latin.var.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
+}
+```
+
+## Tables
+
+| **Option** | **Description**                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
+| First      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| Second     | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+| Third      | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. |
+
+## Links
+
+- [Next.js](https://nextjs.org)
+- [Nextra](https://nextra.vercel.app/)
+- [Vercel](http://vercel.com)
+
+### Footnotes
+
+- Footnote [^1].
+- Footnote [^2].
+
+[^1]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^2]: Footnote text.
+
+### Image
+![image](https://mohammed-og.vercel.app/api?theme=zinc&title=Dynamic+OG+Images+with+%40vercel%2Fog&description=Taking+a+look+at+Vercel%27s+new+library+to+generate+dynamic+OpenGraph+images+on+the+fly%21&logo=mohammed)
