@@ -108,6 +108,11 @@ function Contact() {
           title="ppg00"
           website="GitHub"
         />
+                <ContactLink
+          href="https://instagram.com/ppg00"
+          title="ppg00"
+          website="Instagram"
+        />
         <ContactLink
           email="ppg00"
           title="ppg00"
