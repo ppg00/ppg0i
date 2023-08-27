@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     title: 'ppg00',
   },
   verification: {
-    google: '<meta name="n7ezg3HNBS8tKqKEvXLFoYT8OWEms8e3K-QSUM7Vt5A',
+    google: 'n7ezg3HNBS8tKqKEvXLFoYT8OWEms8e3K-QSUM7Vt5A',
   },
 };
 
@@ -89,6 +89,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+    <script async src="https://ackeepg.vercel.app/tracker.js" data-ackee-server="https://ackeepg.vercel.app" data-ackee-domain-id="fc4c520e-eced-499b-80cb-205551372539"></script>
       <body
         className={cn(
           `${inter.className}`,
