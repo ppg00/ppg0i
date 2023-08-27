@@ -1,6 +1,5 @@
 import '../../../styles/prose.css';
 import { Writing, allWritings } from '@/.contentlayer/generated';
-import ExternalLink from '@/ui/ExternalLink';
 import { Mdx } from '@/ui/MDXComponents';
 import { format, parseISO } from 'date-fns';
 import { Metadata } from 'next';
@@ -58,7 +57,6 @@ export async function generateMetadata({
     },
   };
 }
-
 
 export default async function WritingPost({ params }: { params: any }) {
   const post = allWritings.find((post) => post.slug === params.slug);
