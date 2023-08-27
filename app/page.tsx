@@ -1,4 +1,3 @@
-import ExternalLink from '@/ui/ExternalLink';
 import Image from 'next/image';
 
 export default function Home() {
@@ -41,16 +40,6 @@ function AboutMe() {
       <div className="text-secondary flex flex-col gap-4">
         <p>
           My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
-        </p>
-        <p>
-          {' '}
-          <ExternalLink href="#">
-            #######
-          </ExternalLink>{' '}
-          at <ExternalLink href="#">#</ExternalLink>.
-          ##{' '}
-          <ExternalLink href="#">#</ExternalLink> -
-          #
         </p>
       </div>
     </div>
