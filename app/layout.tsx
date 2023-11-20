@@ -74,8 +74,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@ppg00',
-    title: 'ppg00',
+    site: '@ppg0o',
+    title: 'ppg0o',
   },
   verification: {
     google: 'n7ezg3HNBS8tKqKEvXLFoYT8OWEms8e3K-QSUM7Vt5A',

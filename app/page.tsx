@@ -27,7 +27,7 @@ function Header() {
       </div>
       <div className="flex flex-col">
         <h1>mohammed (ppg00)</h1>
-        <p className="text-quaternary">piece of shit live in Morocc</p>
+        <p className="text-quaternary">piece of shit live in Morocco</p>
       </div>
     </div>
   );
@@ -39,7 +39,7 @@ function AboutMe() {
       <p className="text-tertiary">About me</p>
       <div className="text-secondary flex flex-col gap-4">
         <p>
-          My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites or i steal codes to share more about myself and connect with others who share similar interests. Thanks for stopping by!
+          My name is mohammed. I am 15 years old and currently living in Morocco. I am interested in Website development. In my free time,I created websites or i steal codes. Thanks for stopping by!
         </p>
       </div>
     </div>
@@ -99,8 +99,8 @@ function Contact() {
       <p className="text-tertiary">Connect</p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <ContactLink
-          href="https://twitter.com/qqg00"
-          title="qqg00"
+          href="https://twitter.com/ppg0o"
+          title="ppg0o"
           website="Twitter"
         />
         <ContactLink
@@ -114,8 +114,8 @@ function Contact() {
           website="Instagram"
         />
         <ContactLink
-          href="https://t.me/ppg0i"
-          title="ppg0i"
+          href="https://t.me/ppgo0"
+          title="ppgo0"
           website="Telegram"
         />
         <ContactLink
